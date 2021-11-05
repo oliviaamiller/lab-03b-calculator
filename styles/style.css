@@ -93,7 +93,12 @@ footer {
     box-shadow: var(--shadow);
 }
   
- .sum-here {
-     color: black;
-     font-size: medium;
+
+
+ .buttons button{
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 4px;
+     cursor: pointer;
+     margin: 5px;
  }
