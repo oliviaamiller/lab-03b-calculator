@@ -1,18 +1,16 @@
-// import functions and grab DOM elements
-import { add } from './utils.js';
-import { subtract } from './utils.js';
-import { multiply } from './utils.js';
-import { divide } from './utils.js';
 
-const firstNum = document.getElementById('first-num');
-const secondNum = document.getElementById('second-num');
-const addButton = document.getElementById('add');
+import { add, subtract, multiply, divide } from './utils.js';
+
+const firstInput = document.getElementById('first-num');
+const secondInput = document.getElementById('second-num');
+const addButton = document.getElementById('add-button');
 const sumHere = document.getElementById('sum-here');
 
 
-// initialize state
+addButton.addEventListener('click', () => {
+    const firstNum = +firstInput.value;
+    const secondNum = +secondInput.value;
+    const result = add(firstNum, secondNum);
+    sumHere.textContext = result;
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+});

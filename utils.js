@@ -1,15 +1,15 @@
-export function add(firstNum, secondNum) {
-    return firstNum + secondNum;
+export function add(firstInput, secondInput) {
+    return firstInput + secondInput;
 }
 
-export function subtract(firstNum, secondNum) {
-    return firstNum - secondNum;
+export function subtract(firstInput, secondInput) {
+    return firstInput - secondInput;
 }
 
-export function multiply(firstNum, secondNum) {
-    return firstNum * secondNum;
+export function multiply(firstInput, secondInput) {
+    return firstInput * secondInput;
 }
 
-export function divide(firstNum, secondNum) {
-    return firstNum / secondNum;
+export function divide(firstInput, secondInput) {
+    return firstInput / secondInput;
 }
