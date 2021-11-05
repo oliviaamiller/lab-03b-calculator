@@ -11,5 +11,5 @@ export function multiply(firstNum, secondNum) {
 }
 
 export function divide(firstNum, secondNum) {
-    // return firstNum / secondNum;
+    return firstNum / secondNum;
 }

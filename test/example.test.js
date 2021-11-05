@@ -42,3 +42,11 @@ test('test multiply', (expect) => {
 
     expect.equal(actual, expected);
 });
+
+test('test divide', (expect) => {
+    const expected = 2;
+
+    const actual = divide(6, 3);
+
+    expect.equal(actual, expected);
+});
