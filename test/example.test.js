@@ -3,10 +3,12 @@
 
 import { add } from '../utils.js';
 import { subtract } from '../utils.js';
+import { multiply } from '../utils.js';
+import { divide } from '../utils.js';
 
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
+test('test add', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = 3;
@@ -24,11 +26,19 @@ test('time to test a function', (expect) => {
 });
 
 
-test('time for a test', (expect) => {
+test('test subtract', (expect) => {
     const expected = 3;
 
     const actual = subtract(5, 2);
 
     expect.equal(actual, expected);
 
+});
+
+test('test multiply', (expect) => {
+    const expected = 6;
+
+    const actual = multiply(2, 3);
+
+    expect.equal(actual, expected);
 });
