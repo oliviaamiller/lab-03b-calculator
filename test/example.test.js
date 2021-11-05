@@ -2,6 +2,7 @@
 // import { example } from '../example.js';
 
 import { add } from '../utils.js';
+import { subtract } from '../utils.js';
 
 const test = QUnit.test;
 
@@ -20,4 +21,14 @@ test('time to test a function', (expect) => {
     //Expect
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);
+});
+
+
+test('time for a test', (expect) => {
+    const expected = 3;
+
+    const actual = subtract(5, 2);
+
+    expect.equal(actual, expected);
+
 });
